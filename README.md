@@ -82,3 +82,4 @@ Older browsers like IE11 run LWC in compatibility mode. For more information abo
 | Rule ID                                                  | Description                                                            | Fixable |
 | -------------------------------------------------------- | ---------------------------------------------------------------------- | ------- |
 | [lwc/prefer-localizer](./docs/rules/prefer-localizer.md) | suggest usage of `@salesforce/localizerjs` over direct calls to `Intl` |         |
+| [lwc/no-moment](./docs/rules/no-moment.md)               | prohibit usage of `moment` library                                     |         |
