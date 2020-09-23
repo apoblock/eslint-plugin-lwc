@@ -4,7 +4,7 @@
 
 ## Installation
 
-```
+```bash
 $ npm install eslint babel-eslint @lwc/eslint-plugin-lwc --save-dev
 ```
 
@@ -76,3 +76,9 @@ Older browsers like IE11 run LWC in compatibility mode. For more information abo
 | [locker/no-document-location](./docs/rules/no-document-location.md) | prevent `document.location` usage | 🔧      |
 | [locker/no-dynamic-import](./docs/rules/no-dynamic-import.md)       | disallow dynamic import           |         |
 | [locker/no-window-top](./docs/rules/no-window-top.md)               | prevent `window.top` usage        | 🔧      |
+
+### Internationalization rules
+
+| Rule ID                                                  | Description                                                            | Fixable |
+| -------------------------------------------------------- | ---------------------------------------------------------------------- | ------- |
+| [lwc/prefer-localizer](./docs/rules/prefer-localizer.md) | suggest usage of `@salesforce/localizerjs` over direct calls to `Intl` |         |
